@@ -17,7 +17,7 @@ O objetivo foi criar uma versão estilizada e interativa do clássico jogo **Jok
 
 ## 💻 Tecnologias Utilizadas
 - HTML5  
-- CSS3 (todas as unidades em `px`)  
+- CSS3
 - JavaScript (DOM e lógica condicional)
 
 ---
