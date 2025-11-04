@@ -38,7 +38,7 @@ Durante o desenvolvimento deste projeto, pratiquei:
 
 ## 🌐 Acesse o Projeto
 Se quiser testar online:
-👉 [Link do projeto publicado](https://seu-usuario.github.io/jokenpo)
+👉 [Link do projeto publicado](https://pach33co.github.io/Jokenpo)
 
 ---
 
