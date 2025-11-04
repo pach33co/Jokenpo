@@ -45,4 +45,4 @@ Se quiser testar online:
 ## 👨‍💻 Autor
 **Matheus Pacheco**  
 Desenvolvedor em formação, apaixonado por design e tecnologia.  
-🔗 [LinkedIn](https://www.linkedin.com/in/matheuspachecouxdesign) | 💻 [GitHub](https://github.com/seu-usuario)
+🔗 [LinkedIn](https://www.linkedin.com/in/matheuspachecouxdesign) | 💻 [GitHub](https://github.com/pach33co)
