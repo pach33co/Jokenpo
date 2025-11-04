@@ -1,0 +1,155 @@
+/* ===== Estilos gerais ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1a1a40, #3b3b98);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  width: 100%;
+}
+
+/* ===== Container principal ===== */
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  width: 360px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+/* ===== Placar ===== */
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.scoreboard h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.scoreboard p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* ===== Botões ===== */
+.choices {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
+}
+
+.choice {
+  background: #ffffff20;
+  border: 2px solid #ffffff40;
+  border-radius: 50%;
+  font-size: 40px;
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.choice:hover {
+  background: #ffffff40;
+  transform: scale(1.1);
+}
+
+/* ===== Resultado ===== */
+.result p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+/* ===== Barra de progresso ===== */
+.progress-bar {
+  width: 100%;
+  height: 15px;
+  background: #ffffff30;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#progress {
+  height: 100%;
+  width: 0px;
+  background: linear-gradient(90deg, #00ff9d, #00c3ff);
+  border-radius: 10px;
+  transition: width 0.4s ease;
+}
+
+/* ===== Botão de Reiniciar ===== */
+.reset-btn {
+  background: #00c3ff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+
+.reset-btn:hover {
+  background: #00ff9d;
+  color: #000;
+}
+
+/* ===== Animações ===== */
+@keyframes winFlash {
+  0% { background-color: #1a1a40; }
+  50% { background-color: #1aff80; }
+  100% { background-color: #1a1a40; }
+}
+
+@keyframes loseShake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-10px); }
+  50% { transform: translateX(10px); }
+  75% { transform: translateX(-10px); }
+}
+
+
+/* ===== Responsividade ===== */
+@media (max-width: 400px) {
+  .container {
+    width: 320px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .choice {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+
+  .result p {
+    font-size: 16px;
+  }
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Jokenpô ✊✋✌️</h1>
+
+        <div class="scoreboard">
+            <div class="player-score">
+                <h2>Você</h2>
+                <p id="player-score">0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computador</h2>
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+
+        <div class="choices">
+            <button class="choice" data-choice="pedra">✊</button>
+            <button class="choice" data-choice="papel">✋</button>
+            <button class="choice" data-choice="tesoura">✌️</button>
+        </div>
+
+        <div class="result">
+            <p id="message">Faça sua escolha!</p>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progress"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
